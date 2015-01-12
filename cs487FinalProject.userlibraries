@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eclipse-userlibraries>
+  <library name="gdx-backend-android-1.4.1">
+    <archive path="/home/pidgeonsquish/.gradle/caches/modules-2/files-2.1/com.badlogicgames.gdx/gdx-backend-android/1.4.1/eca2621f18b162c03992bd3ecc226e8a477dc6f9/gdx-backend-android-1.4.1.jar" />
+  </library>
+  <library name="gdx-bullet-1.4.1">
+    <archive path="/home/pidgeonsquish/.gradle/caches/modules-2/files-2.1/com.badlogicgames.gdx/gdx-bullet/1.4.1/56c37e46d31587ddb74e3c6f8c5d7720fbbfb4ae/gdx-bullet-1.4.1.jar" />
+  </library>
+  <library name="gdx-1.4.1">
+    <archive path="/home/pidgeonsquish/.gradle/caches/modules-2/files-2.1/com.badlogicgames.gdx/gdx/1.4.1/df470d263438048af74860ca51fc497c16a0c76a/gdx-1.4.1.jar" />
+  </library>
+  <library name="gdx-backend-lwjgl-1.4.1">
+    <archive path="/home/pidgeonsquish/.gradle/caches/modules-2/files-2.1/com.badlogicgames.gdx/gdx-backend-lwjgl/1.4.1/f31a8b9a0b7955fadf25ff3b77f1824b3927d4ed/gdx-backend-lwjgl-1.4.1.jar" />
+  </library>
+  <library name="gdx-platform-1.4.1-natives-desktop">
+    <archive path="/home/pidgeonsquish/.gradle/caches/modules-2/files-2.1/com.badlogicgames.gdx/gdx-platform/1.4.1/64fd6c8128aed2664de93681f5a1c7fa7c023b02/gdx-platform-1.4.1-natives-desktop.jar" />
+  </library>
+  <library name="lwjgl-2.9.1">
+    <archive path="/home/pidgeonsquish/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl/2.9.1/f58c5aabcef0e41718a564be9f8e412fff8db847/lwjgl-2.9.1.jar" />
+  </library>
+  <library name="lwjgl_util-2.9.1">
+    <archive path="/home/pidgeonsquish/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl_util/2.9.1/290d7ba8a1bd9566f5ddf16ad06f09af5ec9b20e/lwjgl_util-2.9.1.jar" />
+  </library>
+  <library name="jlayer-1.0.1-gdx">
+    <archive path="/home/pidgeonsquish/.gradle/caches/modules-2/files-2.1/com.badlogicgames.jlayer/jlayer/1.0.1-gdx/7cca83cec5c1b2f011362f4d85aabd71a73b049d/jlayer-1.0.1-gdx.jar" />
+  </library>
+  <library name="jorbis-0.0.17">
+    <archive path="/home/pidgeonsquish/.gradle/caches/modules-2/files-2.1/org.jcraft/jorbis/0.0.17/8872d22b293e8f5d7d56ff92be966e6dc28ebdc6/jorbis-0.0.17.jar" />
+  </library>
+  <library name="lwjgl-platform-2.9.1-natives-windows">
+    <archive path="/home/pidgeonsquish/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl-platform/2.9.1/4c517eca808522457dd95ee8fc1fbcdbb602efbe/lwjgl-platform-2.9.1-natives-windows.jar" />
+  </library>
+  <library name="lwjgl-platform-2.9.1-natives-linux">
+    <archive path="/home/pidgeonsquish/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl-platform/2.9.1/aa9aae879af8eb378e22cfc64db56ec2ca9a44d1/lwjgl-platform-2.9.1-natives-linux.jar" />
+  </library>
+  <library name="lwjgl-platform-2.9.1-natives-osx">
+    <archive path="/home/pidgeonsquish/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl-platform/2.9.1/2d12c83fdfbc04ecabf02c7bc8cc54d034f0daac/lwjgl-platform-2.9.1-natives-osx.jar" />
+  </library>
+  <library name="jinput-2.0.5">
+    <archive path="/home/pidgeonsquish/.gradle/caches/modules-2/files-2.1/net.java.jinput/jinput/2.0.5/39c7796b469a600f72380316f6b1f11db6c2c7c4/jinput-2.0.5.jar" />
+  </library>
+  <library name="jutils-1.0.0">
+    <archive path="/home/pidgeonsquish/.gradle/caches/modules-2/files-2.1/net.java.jutils/jutils/1.0.0/e12fe1fda814bd348c1579329c86943d2cd3c6a6/jutils-1.0.0.jar" />
+  </library>
+  <library name="jinput-platform-2.0.5-natives-linux">
+    <archive path="/home/pidgeonsquish/.gradle/caches/modules-2/files-2.1/net.java.jinput/jinput-platform/2.0.5/7ff832a6eb9ab6a767f1ade2b548092d0fa64795/jinput-platform-2.0.5-natives-linux.jar" />
+  </library>
+  <library name="jinput-platform-2.0.5-natives-windows">
+    <archive path="/home/pidgeonsquish/.gradle/caches/modules-2/files-2.1/net.java.jinput/jinput-platform/2.0.5/385ee093e01f587f30ee1c8a2ee7d408fd732e16/jinput-platform-2.0.5-natives-windows.jar" />
+  </library>
+  <library name="jinput-platform-2.0.5-natives-osx">
+    <archive path="/home/pidgeonsquish/.gradle/caches/modules-2/files-2.1/net.java.jinput/jinput-platform/2.0.5/53f9c919f34d2ca9de8c51fc4e1e8282029a9232/jinput-platform-2.0.5-natives-osx.jar" />
+  </library>
+  <library name="gdx-backend-gwt-1.4.1">
+    <archive path="/home/pidgeonsquish/.gradle/caches/modules-2/files-2.1/com.badlogicgames.gdx/gdx-backend-gwt/1.4.1/9005f99ddc6aec38667183968a5cef6c47608790/gdx-backend-gwt-1.4.1.jar" />
+  </library>
+  <library name="gdx-backend-gwt-1.4.1-sources">
+    <archive path="/home/pidgeonsquish/.gradle/caches/modules-2/files-2.1/com.badlogicgames.gdx/gdx-backend-gwt/1.4.1/6a7814ff9cedbe7e7576d9578258fa99939fd092/gdx-backend-gwt-1.4.1-sources.jar" />
+  </library>
+  <library name="gdx-1.4.1-sources">
+    <archive path="/home/pidgeonsquish/.gradle/caches/modules-2/files-2.1/com.badlogicgames.gdx/gdx/1.4.1/a36f5d3e6a3b0fa3c625f8ce88216daf99435bce/gdx-1.4.1-sources.jar" />
+  </library>
+  <library name="gwt-user-2.6.0">
+    <archive path="/home/pidgeonsquish/.gradle/caches/modules-2/files-2.1/com.google.gwt/gwt-user/2.6.0/8237d1bd37127188107388c8724be44a0e9f73ca/gwt-user-2.6.0.jar" />
+  </library>
+  <library name="validation-api-1.0.0.GA">
+    <archive path="/home/pidgeonsquish/.gradle/caches/modules-2/files-2.1/javax.validation/validation-api/1.0.0.GA/b6bd7f9d78f6fdaa3c37dae18a4bd298915f328e/validation-api-1.0.0.GA.jar" />
+  </library>
+  <library name="validation-api-1.0.0.GA-sources">
+    <archive path="/home/pidgeonsquish/.gradle/caches/modules-2/files-2.1/javax.validation/validation-api/1.0.0.GA/7a561191db2203550fbfa40d534d4997624cd369/validation-api-1.0.0.GA-sources.jar" />
+  </library>
+  <library name="json-20090211">
+    <archive path="/home/pidgeonsquish/.gradle/caches/modules-2/files-2.1/org.json/json/20090211/c183aa3a2a6250293808bba12262c8920ce5a51c/json-20090211.jar" />
+  </library>
+  <library name="gwt-servlet-2.6.0">
+    <archive path="/home/pidgeonsquish/.gradle/caches/modules-2/files-2.1/com.google.gwt/gwt-servlet/2.6.0/d1e40c23bf78192482ee76c93619a10b4ea649f7/gwt-servlet-2.6.0.jar" />
+  </library>
+  <library name="robovm-rt-1.0.0-alpha-04">
+    <archive path="/home/pidgeonsquish/.gradle/caches/modules-2/files-2.1/org.robovm/robovm-rt/1.0.0-alpha-04/402bcd531bcd9e230979ecd6d86e4f2168220122/robovm-rt-1.0.0-alpha-04.jar" />
+  </library>
+  <library name="robovm-cocoatouch-1.0.0-alpha-04">
+    <archive path="/home/pidgeonsquish/.gradle/caches/modules-2/files-2.1/org.robovm/robovm-cocoatouch/1.0.0-alpha-04/6cf3a79553a8d3bef331ac289793f681a5b9b01f/robovm-cocoatouch-1.0.0-alpha-04.jar" />
+  </library>
+  <library name="gdx-backend-robovm-1.4.1">
+    <archive path="/home/pidgeonsquish/.gradle/caches/modules-2/files-2.1/com.badlogicgames.gdx/gdx-backend-robovm/1.4.1/8d98011309b675b76a6392ef4c57ad973cc9a40e/gdx-backend-robovm-1.4.1.jar" />
+  </library>
+  <library name="robovm-objc-1.0.0-alpha-04">
+    <archive path="/home/pidgeonsquish/.gradle/caches/modules-2/files-2.1/org.robovm/robovm-objc/1.0.0-alpha-04/d3a3fe8461ffe008218e4c31b7db58dc7e3b2fb8/robovm-objc-1.0.0-alpha-04.jar" />
+  </library>
+</eclipse-userlibraries>
+

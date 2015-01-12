@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component inheritJdk="true">
+	<output-test url="file://$MODULE_DIR$/build/classes/test"/>
+	<exclude-output/>
+	<contentEntry url="file://$MODULE_DIR$">
+		<testFolder url="file://$MODULE_DIR$/src/test/java"/>
+		<testFolder url="file://$MODULE_DIR$/src/test/resources"/>
+		<excludeFolder url="file://$MODULE_DIR$/.gradle"/>
+		<excludeFolder url="file://$MODULE_DIR$/build"/>
+	</contentEntry>
+	<lib name="gwt-servlet-2.6.0" scope="RUNTIME"/>
+	<levels>
+		<level name="gdx-backend-gwt-1.4.1" value="project"/>
+		<level name="gdx-backend-gwt-1.4.1-sources" value="project"/>
+		<level name="gdx-1.4.1-sources" value="project"/>
+		<level name="gdx-1.4.1" value="project"/>
+		<level name="gwt-user-2.6.0" value="project"/>
+		<level name="validation-api-1.0.0.GA" value="project"/>
+		<level name="validation-api-1.0.0.GA-sources" value="project"/>
+		<level name="json-20090211" value="project"/>
+		<level name="gwt-servlet-2.6.0" value="project"/>
+	</levels>
+</component>
