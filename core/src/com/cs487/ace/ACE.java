@@ -210,7 +210,7 @@ public class ACE extends ApplicationAdapter {
 		spriteBatch = new SpriteBatch();
         font = new BitmapFont();
         font.setColor(Color.LIGHT_GRAY);
-        font.setScale(3f);
+//        font.setScale(3f);
 
         //sound initialization
         //theme = Gdx.audio.newMusic(Gdx.files.internal("murica.mp3"));
@@ -233,9 +233,9 @@ public class ACE extends ApplicationAdapter {
         timeElapsedFont.setColor(timeElapsedColor);
         //ordinanceStatusFont.setColor(Color.GREEN);
 
-        scoreFont.setScale(2f,2.5f);
-        killCountFont.setScale(2f,2.5f);
-        timeElapsedFont.setScale(2f,2.5f);
+//        scoreFont.setScale(2f,2.5f);
+//        killCountFont.setScale(2f,2.5f);
+//        timeElapsedFont.setScale(2f,2.5f);
         //ordinanceStatusFont.setScale(1f,1.5f);
 
         //Partial Credit to: http://homepage1.nifty.com/avionics/f22adf/cockpit.jpg
@@ -588,7 +588,7 @@ public class ACE extends ApplicationAdapter {
 
         //Developer Information
         if(isDev) {
-            font.drawMultiLine(spriteBatch, devInfo, 0, deviceHeight);
+            font.draw(spriteBatch, devInfo, 0, deviceHeight);
         }
 
         //Indication of loading status or actual game HUD info
@@ -617,14 +617,14 @@ public class ACE extends ApplicationAdapter {
 
                 //Game Hud Info
                 if (!isDev) {
-                    timeElapsedFont.drawMultiLine(spriteBatch,
+                    timeElapsedFont.draw(spriteBatch,
                             aceGameModel.getTimeElapsedText(), 0, deviceHeight);
-                    killCountFont.drawMultiLine(spriteBatch,
-                            aceGameModel.getKillCountText(), deviceWidth - killCountFont.getBounds(aceGameModel.getKillCountText()).width,
-                            deviceHeight - scoreFont.getBounds(aceGameModel.getKillCountText()).height);
-                    scoreFont.drawMultiLine(spriteBatch,
-                            aceGameModel.getScoreText(), deviceWidth - scoreFont.getBounds(aceGameModel.getScoreText()).width,
-                            deviceHeight);
+//                    killCountFont.draw(spriteBatch,
+//                            aceGameModel.getKillCountText(), deviceWidth - killCountFont.getBounds(aceGameModel.getKillCountText()).width,
+//                            deviceHeight - scoreFont.getBounds(aceGameModel.getKillCountText()).height);
+//                    scoreFont.draw(spriteBatch,
+//                            aceGameModel.getScoreText(), deviceWidth - scoreFont.getBounds(aceGameModel.getScoreText()).width,
+//                            deviceHeight);
 
                     //replaced by cockpitReady and cockpitLaunched
                     //ordinanceStatusFont.drawMultiLine(spriteBatch,
@@ -652,16 +652,16 @@ public class ACE extends ApplicationAdapter {
         CollisionObjectWrapper co0 = new CollisionObjectWrapper(obj0);
         CollisionObjectWrapper co1 = new CollisionObjectWrapper(obj1);
 
-        btCollisionAlgorithm algorithm = dispatcher.findAlgorithm(co0.wrapper, co1.wrapper);
+//        btCollisionAlgorithm algorithm = dispatcher.freeCollisionAlgorithm(Collision.bt_line_plane_collision());
 
         btDispatcherInfo info = new btDispatcherInfo();
         btManifoldResult result = new btManifoldResult(co0.wrapper, co1.wrapper);
 
-        algorithm.processCollision(co0.wrapper, co1.wrapper, info, result);
+//        algorithm.processCollision(co0.wrapper, co1.wrapper, info, result);
 
         boolean r = result.getPersistentManifold().getNumContacts() > 0;
 
-        dispatcher.freeCollisionAlgorithm(algorithm.getCPointer());
+//        dispatcher.freeCollisionAlgorithm(algorithm.getCPointer());
         result.dispose();
         info.dispose();
         co1.dispose();
