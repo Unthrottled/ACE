@@ -652,18 +652,21 @@ public class ACE extends ApplicationAdapter {
         CollisionObjectWrapper co0 = new CollisionObjectWrapper(obj0);
         CollisionObjectWrapper co1 = new CollisionObjectWrapper(obj1);
 
-//        btCollisionAlgorithm algorithm = dispatcher.freeCollisionAlgorithm(Collision.bt_line_plane_collision());
+        btCollisionAlgorithmConstructionInfo ci = new btCollisionAlgorithmConstructionInfo();
+        ci.setDispatcher1(dispatcher);
+        btCollisionAlgorithm algorithm = new btSphereBoxCollisionAlgorithm(null, ci, co0.wrapper, co1.wrapper, false);
 
         btDispatcherInfo info = new btDispatcherInfo();
         btManifoldResult result = new btManifoldResult(co0.wrapper, co1.wrapper);
 
-//        algorithm.processCollision(co0.wrapper, co1.wrapper, info, result);
+        algorithm.processCollision(co0.wrapper, co1.wrapper, info, result);
 
         boolean r = result.getPersistentManifold().getNumContacts() > 0;
 
-//        dispatcher.freeCollisionAlgorithm(algorithm.getCPointer());
         result.dispose();
         info.dispose();
+        algorithm.dispose();
+        ci.dispose();
         co1.dispose();
         co0.dispose();
 
